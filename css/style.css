@@ -31,7 +31,7 @@ body {
 }
 
 .main__container {
-    width: 1200px;
+    /* width: 1200px; */
     margin: auto;
     
 }
@@ -42,6 +42,8 @@ body {
     position: sticky;
     top: 0;
     background-image: url(../img/Layer\ 13_top.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 35px 69px 0 69px;
 }
 .menu__wrapper {
@@ -87,6 +89,8 @@ body {
 .main__content {
     height: 521px;
     background-image: url(../img/Layer\ 13_bottom.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding-left: 69px;
 }
 .content__wrapper {
